@@ -1,0 +1,11 @@
+Setup:
+    * clarify during GCloud CLI install that you don't need to authenticate until the class (using service acct)
+Spring Boot Lab:
+    * Unclear how to get modal dialog for 'import gradle' (could be more clear re: project structure)
+    * Context re: why are are using maven structure in a gradle project
+Buildpack Lab:
+    * More background on a builder / buildpack
+Intro Deploy K8s lab:
+    * Would be nice to have us cat `.kube/config` to see what's happening
+    * breakdown of the various subsections of config, what they mean, and how they map to k8s objects
+    * multiple labels are useful, but overloading name as a label was confusing
