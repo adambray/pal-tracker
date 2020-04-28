@@ -11,4 +11,6 @@ Intro Deploy K8s lab:
     * multiple labels are useful, but overloading name as a label was confusing
 ConfigMap Lab:
     * Instructions to redeploy deployment.yaml weren't super obvious
+CI Lab:
+    * Unclear what we're supposed to copy into the GCLOUD service key (whole JSON file?)
 
