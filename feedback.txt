@@ -9,3 +9,6 @@ Intro Deploy K8s lab:
     * Would be nice to have us cat `.kube/config` to see what's happening
     * breakdown of the various subsections of config, what they mean, and how they map to k8s objects
     * multiple labels are useful, but overloading name as a label was confusing
+ConfigMap Lab:
+    * Instructions to redeploy deployment.yaml weren't super obvious
+
