@@ -16,4 +16,4 @@ CI Lab:
     * Maybe some questions to force us to think through what the script is doing?
 Autoscaling lab:
     * Missing instruction before submitting assignment to apply your changes to the development environment
-    
+
