@@ -14,3 +14,6 @@ ConfigMap Lab:
 CI Lab:
     * Unclear what we're supposed to copy into the GCLOUD service key (whole JSON file?)
     * Maybe some questions to force us to think through what the script is doing?
+Autoscaling lab:
+    * Missing instruction before submitting assignment to apply your changes to the development environment
+    
