@@ -13,4 +13,4 @@ ConfigMap Lab:
     * Instructions to redeploy deployment.yaml weren't super obvious
 CI Lab:
     * Unclear what we're supposed to copy into the GCLOUD service key (whole JSON file?)
-
+    * Maybe some questions to force us to think through what the script is doing?
