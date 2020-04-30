@@ -139,8 +139,8 @@ public class TimeEntryControllerTest {
     public void testUpdate_NotFound() {
         long nonExistentTimeEntryId = 1L;
         doReturn(null)
-            .when(timeEntryRepository)
-            .update(eq(nonExistentTimeEntryId), any(TimeEntry.class));
+                .when(timeEntryRepository)
+                .update(eq(nonExistentTimeEntryId), any(TimeEntry.class));
 
         ResponseEntity response = controller.update(nonExistentTimeEntryId, new TimeEntry());
 
