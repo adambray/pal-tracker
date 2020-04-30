@@ -18,6 +18,9 @@ spec:
       containers:
         - name: pal-tracker-container
           image: adambray/pal-tracker:v1
+          envFrom:
+            - secretRef:
+                name: db-credentials
           resources:
             limits:
               cpu: "100m"
