@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: pal-tracker-container
-          image: adambray/pal-tracker:build-9
+          image: adambray/pal-tracker:build-14
           envFrom:
             - secretRef:
                 name: db-credentials
@@ -27,6 +27,10 @@ spec:
           readinessProbe:
             httpGet:
               path: /
+              port: 8080
+          livenessProbe:
+            httpGet:
+              path: /actuator/health
               port: 8080
           lifecycle:
             preStop:
