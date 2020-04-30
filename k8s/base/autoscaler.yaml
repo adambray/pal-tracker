@@ -4,7 +4,7 @@ metadata:
   name: pal-tracker
 spec:
   minReplicas: 1
-  maxReplicas: 5
+  maxReplicas: 1
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
