@@ -43,3 +43,13 @@ spec:
                 configMapKeyRef:
                   name: pal-tracker
                   key: spring.datasource.hikari.maximumpoolsize
+            - name: MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE
+              valueFrom:
+                configMapKeyRef:
+                  name: pal-tracker
+                  key: management.endpoints.web.exposure.include
+            - name: MANAGEMENT_ENDPOINT_HEALTH_SHOWDETAILS
+              valueFrom:
+                configMapKeyRef:
+                  name: pal-tracker
+                  key: management.endpoint.health.showdetails
