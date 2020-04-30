@@ -6,4 +6,4 @@ data:
   welcome.message: "hello from development"
   spring.datasource.hikari.maximumpoolsize: "1"
   management.endpoints.web.exposure.include: "*"
-  management.endpoints.health.showdetails: always
+  management.endpoint.health.showdetails: always
